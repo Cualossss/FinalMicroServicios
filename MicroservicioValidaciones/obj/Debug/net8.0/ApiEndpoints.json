@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "MicroservicioValidaciones.Controllers.ValidacionesController",
+    "Method": "Validar",
+    "RelativePath": "api/Validaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MicroservicioValidaciones.DTOs.ValidacionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

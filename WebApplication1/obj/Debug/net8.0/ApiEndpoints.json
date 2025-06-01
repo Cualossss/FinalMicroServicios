@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "MicroservicioFasecolda.Controllers.AccidentesController",
+    "Method": "Post",
+    "RelativePath": "api/Accidentes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "acc",
+        "Type": "MicroservicioFasecolda.Models.Accidente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroservicioFasecolda.Controllers.AccidentesController",
+    "Method": "GetPorPlaca",
+    "RelativePath": "api/Accidentes/{placa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
